@@ -1,6 +1,7 @@
   # Multimedia data mining on RSI images
 
     IEEE paper implemented : Peano Count Tree Association rule Mining.
+    [a link](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4637289)
 
 
     Using C and Java Swings, the algorithm was designed to mine the visual bands of RSI images 
@@ -11,7 +12,7 @@
     region, the yield over there could be predicted.
 
 
-   //Program files for different versions:
+    Program files for different versions:
    
    
       Codes for RGB to RGB Mapping:
