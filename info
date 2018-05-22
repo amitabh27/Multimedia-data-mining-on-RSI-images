@@ -108,6 +108,9 @@ https://guidedlda.readthedocs.io/en/latest/
 Here you can pre-specify the seed words that form a topic so that the Unsupervised LDA becomes Supervised
 LDA.
 
+AWESOME LDA = https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/
+https://www.machinelearningplus.com/nlp/topic-modeling-python-sklearn-examples/
+
 
 
 ########################################################################################################################################
