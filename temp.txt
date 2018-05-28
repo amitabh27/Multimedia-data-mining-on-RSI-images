@@ -20,10 +20,10 @@ from bs4 import BeautifulSoup
 data=[]
 #It contains urls of all web pages from where articles from morgan stanley site are picked up
 article_url=[]
-base_url='www.morganstanley.com'
+base_url='www..com'
 
 
-url='http://www.morganstanley.com/ideas'
+url='http://www..com/ideas'
 page = urlopen(url)
 soup = BeautifulSoup(page,"html5lib")
 needed_div=soup.find('section',{"id":"tiles"})
@@ -33,7 +33,7 @@ for link in needed_div.findAll('a', attrs={'href': re.compile("/")}):
 
 
 
-url='http://www.morganstanley.com/what-we-do/wealth-management/family.html'
+url='http://www..com/what-we-do/wealth-management/family.html'
 page = urlopen(url)
 soup = BeautifulSoup(page,"html5lib")
 needed_div=soup.find('section',{"id":"tiles"})
@@ -46,7 +46,7 @@ for link in needed_div.findAll('a', attrs={'href': re.compile("/")}):
 
 stopping_len=len(article_url)
 
-url='http://www.morganstanley.com/spc/knowledge/managing-wealth/wealth-management-for-stock-plan-participants/'
+url='http://www..com/spc/knowledge/managing-wealth/wealth-management-for-stock-plan-participants/'
 page = urlopen(url)
 soup = BeautifulSoup(page,"html5lib")
 
